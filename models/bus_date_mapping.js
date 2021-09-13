@@ -1,10 +1,5 @@
 module.exports = (sequelize, DataTypes)=>{
     const bus_date_mapping = sequelize.define("bus_date_mapping", {
-        // busId: {
-        //     type: DataTypes.INTEGER,
-        //     allowNull : false,
-        //     primaryKey : true
-        // },
         date: {
             type: DataTypes.DATE
             
