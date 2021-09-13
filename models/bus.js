@@ -1,10 +1,5 @@
 module.exports = (sequelize, DataTypes)=>{
     const bus = sequelize.define("bus", {
-        // busId: {
-        //     type: DataTypes.INTEGER,
-        //     allowNull : false,
-        //     primaryKey : true
-        // },
         name: {
             type: DataTypes.TEXT,
             allowNull : false
