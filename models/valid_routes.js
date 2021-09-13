@@ -1,10 +1,5 @@
 module.exports = (sequelize, DataTypes)=>{
     const valid_routes = sequelize.define("valid_routes", {
-        // busId: {
-        //     type: DataTypes.INTEGER,
-        //     allowNull : false,
-        //     primaryKey : true
-        // },
         From: {
             type: DataTypes.TEXT,
             allowNull : false
